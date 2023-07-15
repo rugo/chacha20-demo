@@ -25,7 +25,7 @@ The service uses a signed variable for indexing, which is a common cause for mem
 ## The Exploit
 
 To leverage the programs memory corruption into leaking the secret key and decrypting the given ciphertext, an exploit is prepared in exploit/decrypt.py.
-This exploit is written in Python and annotated. It requires the [PyCryptoDome](https://pypi.org/project/pycryptodome/) and [Pwntools](https://github.com/Gallopsled/pwntools) Python package to be installed. 
+This exploit is written in Python and annotated. It requires the [PyCryptoDome](https://pypi.org/project/pycryptodome/) and [Pwntools](https://github.com/Gallopsled/pwntools) Python packages to be installed. 
 
 The exploit can be started with:
 
